@@ -534,7 +534,7 @@ namespace PR5 {
 					this->панельІнстрементівToolStripMenuItem
 			});
 			this->панеліToolStripMenuItem->Name = L"панеліToolStripMenuItem";
-			this->панеліToolStripMenuItem->Size = System::Drawing::Size(180, 22);
+			this->панеліToolStripMenuItem->Size = System::Drawing::Size(112, 22);
 			this->панеліToolStripMenuItem->Text = L"Панелі";
 			// 
 			// рядокСтануToolStripMenuItem
@@ -594,7 +594,7 @@ namespace PR5 {
 			// шрифтToolStripMenuItem
 			// 
 			this->шрифтToolStripMenuItem->Name = L"шрифтToolStripMenuItem";
-			this->шрифтToolStripMenuItem->Size = System::Drawing::Size(180, 22);
+			this->шрифтToolStripMenuItem->Size = System::Drawing::Size(113, 22);
 			this->шрифтToolStripMenuItem->Text = L"Шрифт";
 			this->шрифтToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::шрифтToolStripMenuItem_Click);
 			// 
@@ -608,7 +608,7 @@ namespace PR5 {
 			// фонToolStripMenuItem
 			// 
 			this->фонToolStripMenuItem->Name = L"фонToolStripMenuItem";
-			this->фонToolStripMenuItem->Size = System::Drawing::Size(180, 22);
+			this->фонToolStripMenuItem->Size = System::Drawing::Size(97, 22);
 			this->фонToolStripMenuItem->Text = L"Фон";
 			this->фонToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::фонToolStripMenuItem_Click);
 			// 
@@ -622,7 +622,7 @@ namespace PR5 {
 			// проАвтораToolStripMenuItem
 			// 
 			this->проАвтораToolStripMenuItem->Name = L"проАвтораToolStripMenuItem";
-			this->проАвтораToolStripMenuItem->Size = System::Drawing::Size(180, 22);
+			this->проАвтораToolStripMenuItem->Size = System::Drawing::Size(137, 22);
 			this->проАвтораToolStripMenuItem->Text = L"Про автора";
 			this->проАвтораToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::helpToolStripButton_Click);
 			// 
@@ -633,33 +633,33 @@ namespace PR5 {
 					this->копіюватиToolStripMenuItem1, this->вставитиToolStripMenuItem1, this->шрифтToolStripMenuItem1
 			});
 			this->contextMenuStrip1->Name = L"contextMenuStrip1";
-			this->contextMenuStrip1->Size = System::Drawing::Size(133, 92);
+			this->contextMenuStrip1->Size = System::Drawing::Size(181, 114);
 			// 
 			// вирізатиToolStripMenuItem1
 			// 
 			this->вирізатиToolStripMenuItem1->Name = L"вирізатиToolStripMenuItem1";
-			this->вирізатиToolStripMenuItem1->Size = System::Drawing::Size(132, 22);
+			this->вирізатиToolStripMenuItem1->Size = System::Drawing::Size(180, 22);
 			this->вирізатиToolStripMenuItem1->Text = L"Вирізати";
 			this->вирізатиToolStripMenuItem1->Click += gcnew System::EventHandler(this, &MyForm::cutToolStripButton_Click);
 			// 
 			// копіюватиToolStripMenuItem1
 			// 
 			this->копіюватиToolStripMenuItem1->Name = L"копіюватиToolStripMenuItem1";
-			this->копіюватиToolStripMenuItem1->Size = System::Drawing::Size(132, 22);
+			this->копіюватиToolStripMenuItem1->Size = System::Drawing::Size(180, 22);
 			this->копіюватиToolStripMenuItem1->Text = L"Копіювати";
 			this->копіюватиToolStripMenuItem1->Click += gcnew System::EventHandler(this, &MyForm::copyToolStripButton_Click);
 			// 
 			// вставитиToolStripMenuItem1
 			// 
 			this->вставитиToolStripMenuItem1->Name = L"вставитиToolStripMenuItem1";
-			this->вставитиToolStripMenuItem1->Size = System::Drawing::Size(132, 22);
+			this->вставитиToolStripMenuItem1->Size = System::Drawing::Size(180, 22);
 			this->вставитиToolStripMenuItem1->Text = L"Вставити";
 			this->вставитиToolStripMenuItem1->Click += gcnew System::EventHandler(this, &MyForm::pasteToolStripButton_Click);
 			// 
 			// шрифтToolStripMenuItem1
 			// 
 			this->шрифтToolStripMenuItem1->Name = L"шрифтToolStripMenuItem1";
-			this->шрифтToolStripMenuItem1->Size = System::Drawing::Size(132, 22);
+			this->шрифтToolStripMenuItem1->Size = System::Drawing::Size(180, 22);
 			this->шрифтToolStripMenuItem1->Text = L"Шрифт";
 			// 
 			// openFileDialog1
